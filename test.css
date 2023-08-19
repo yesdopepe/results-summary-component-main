@@ -1,0 +1,26 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+}
+
+@media(max-width: 768px) {
+
+    #results{
+        background: radial-gradient(circle, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        padding: 20px;
+        text-align: center;
+        border-radius: 5%;
+        height: 250px;
+    }
+    #circle{
+        background: radial-gradient(circle, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+        border-radius: 100%;
+        aspect-ratio: 1/1;
+        text-align: center;
+        position: relative;
+        align-items: center;
+        padding: 10%;
+        box-sizing: content-box;
+       
+    
+}

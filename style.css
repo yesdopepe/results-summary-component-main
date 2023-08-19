@@ -1,0 +1,138 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.card{
+    float: left;
+    overflow: clip;
+ border: 10px;
+}
+
+#results{
+    background: radial-gradient(circle, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 50px;
+    text-align: center;
+    border-radius: 5%;
+    width: 200px;
+}
+#circle{
+    background: radial-gradient(circle, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    border-radius: 100%;
+    text-align: center;
+    aspect-ratio: 1/1;
+    position: inherit;
+    align-items: center;
+    padding: 10%;
+    box-sizing: content-box;
+   
+}
+#circle h1{
+    font-size: 3em;
+    color: white;
+}
+
+.text{
+    color: beige;
+}
+
+
+#summary{
+    padding: 20px;
+    height: 534px;
+    width: 300px;
+    border-radius: 5%;
+box-sizing: border-box;
+align-items: center;
+}
+
+.summary-text{
+    width: 100px;
+    display: block;
+    float: left;
+}
+
+#reaction{
+    background-color: hsla(0, 100%, 67%, 10%);
+    border-radius: 10px;
+    height: 50px;
+    border-radius: 10px;
+    height: 50px;
+padding-top: 15px;
+padding-left: 15px;
+box-sizing: border-box;
+}
+#memory{
+    background-color: hsla(39, 100%, 56%, 10%);
+    border-radius: 10px;
+    height: 50px;
+    border-radius: 10px;
+    height: 50px;
+justify-items: center;
+padding-top: 15px;
+padding-left: 15px;
+box-sizing: border-box;
+}
+#verbal{
+    background-color: hsla(166, 100%, 37%, 10%);
+    border-radius: 10px;
+    height: 50px;
+    border-radius: 10px;
+    height: 50px;
+justify-items: center;
+padding-top: 15px;
+padding-left: 15px;
+box-sizing: border-box;
+}
+
+#visual{
+    background-color: hsla(234, 85%, 45%, 10%);
+    border-radius: 10px;
+    height: 50px;
+    border-radius: 10px;
+    height: 50px;
+justify-items: center;
+padding-top: 15px;
+padding-left: 15px;
+box-sizing: border-box;
+}
+
+#reaction-result{
+    margin-left: 80px;
+}
+#memory-result{
+    margin-left: 80px;
+}
+
+#verbal-result{
+    margin-left: 80px;
+}
+
+#visual-result{
+    margin-left: 80px;
+}
+
+#continue{
+    position: relative;
+    left: 10%;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: hsl(224, 30%, 27%);
+    border: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+#continue:hover{
+    background-color: hsl(234, 85%, 45%);
+}
